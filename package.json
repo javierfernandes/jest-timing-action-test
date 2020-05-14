@@ -1,0 +1,22 @@
+{
+  "name": "jest-timing-action-test",
+  "version": "0.0.1",
+  "description": "A fake repository just to manually test and have and example for using jest-timing-action",
+  "main": "index.js",
+  "repository": "git@github.com:javierfernandes/jest-timing-action-test.git",
+  "author": "Javier Fernandes <javier.fernandes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-timing-reporter": "javierfernandes/jest-timing-reporter#master"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "jest-timing-reporter"
+    ]
+  }
+}
