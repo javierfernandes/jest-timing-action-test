@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: jest-timing-action
+
+# Controls when the action will run. Triggers the workflow on push or pull request 
+# events but only for the master branch
+on:
+  pull_request:
+    branches: [ master ]
+jobs:
+  pr_check:
+    runs-on: ubuntu-latest
+    name: Post Test Timing deltas on PR
+    steps:
+    - uses: actions/checkout@v2
+    - name: PR Action
+      uses: javierfernandes/jest-timing-action@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
