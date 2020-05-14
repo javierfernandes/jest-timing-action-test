@@ -4,12 +4,12 @@ const doIt = require('../../../indexindex')
 describe('It is always good', () => {
 
   it('to test', async () => {
-    const r = await doIt(1200)
+    const r = await doIt(1220)
     expect(r).toEqual('And we are done !')
   })
 
   it('to test pure functions', async () => {
-    const r = await doIt(300)
+    const r = await doIt(-300)
     expect(r).toEqual('And we are done !')
   })
 
