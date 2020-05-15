@@ -1,7 +1,7 @@
 
 const doIt = require('../../../index')
 
-describe('It is always good', () => {
+describe('it is always good', () => {
 
   it('to test', async () => {
     const r = await doIt(1220)
