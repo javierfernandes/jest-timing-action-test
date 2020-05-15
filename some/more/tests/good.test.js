@@ -4,7 +4,7 @@ const doIt = require('../../../index')
 describe('it is always good', () => {
 
   it('to test', async () => {
-    const r = await doIt(1220)
+    const r = await doIt(1222)
     expect(r).toEqual('And we are done !')
   })
 
