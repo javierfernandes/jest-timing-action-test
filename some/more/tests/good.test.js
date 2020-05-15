@@ -1,5 +1,5 @@
 
-const doIt = require('../../../indexindex')
+const doIt = require('../../../index')
 
 describe('It is always good', () => {
 

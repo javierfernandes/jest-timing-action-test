@@ -1,0 +1,25 @@
+{
+  "path": "some/more/tests/good.test.js",
+  "stats": {
+    "end": 1589501697405,
+    "start": 1589501695303
+  },
+  "tests": [
+    {
+      "fullName": "It is always good to test",
+      "duration": 1230
+    },
+    {
+      "fullName": "It is always good to test pure functions",
+      "duration": 3
+    },
+    {
+      "fullName": "It is always good tests integrations",
+      "duration": 155
+    },
+    {
+      "fullName": "It is always good but specially test side-effects!",
+      "duration": 152
+    }
+  ]
+}
