@@ -1,13 +1,21 @@
 {
   "path": "index.test.js",
   "stats": {
-    "end": 1589458694389,
-    "start": 1589458692741
+    "end": 1589501759124,
+    "start": 1589501756853
   },
   "tests": [
     {
       "fullName": "doIt test shoud wait for the given amount of time and produce a message",
-      "duration": 1244
+      "duration": 1210
+    },
+    {
+      "fullName": "doIt test a second test",
+      "duration": 306
+    },
+    {
+      "fullName": "doIt test a third test",
+      "duration": 155
     }
   ]
 }
