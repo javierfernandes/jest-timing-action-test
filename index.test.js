@@ -9,12 +9,12 @@ describe('doIt test', () => {
   })
 
   it('a second test', async () => {
-    const r = await doIt(300)
+    const r = await doIt(450)
     expect(r).toEqual('And we are done !')
   })
 
   it('a third test', async () => {
-    const r = await doIt(150)
+    const r = await doIt(250)
     expect(r).toEqual('And we are done !')
   })
 

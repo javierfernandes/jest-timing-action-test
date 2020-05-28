@@ -1,13 +1,13 @@
 {
   "path": "some/more/more.test.js",
   "stats": {
-    "end": 1589501758659,
-    "start": 1589501756848
+    "end": 1589501697277,
+    "start": 1589501695364
   },
   "tests": [
     {
       "fullName": "It is always good More !",
-      "duration": 1209
+      "duration": 1212
     }
   ]
 }

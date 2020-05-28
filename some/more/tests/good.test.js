@@ -1,15 +1,15 @@
 
 const doIt = require('../../../index')
 
-describe('It is always good', () => {
+describe('it is always good', () => {
 
   it('to test', async () => {
-    const r = await doIt(1200)
+    const r = await doIt(1222)
     expect(r).toEqual('And we are done !')
   })
 
   it('to test pure functions', async () => {
-    const r = await doIt(300)
+    const r = await doIt(-300)
     expect(r).toEqual('And we are done !')
   })
 

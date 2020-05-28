@@ -2087,7 +2087,7 @@ jest-snapshot@^26.0.1:
 
 jest-timing-reporter@javierfernandes/jest-timing-reporter#master:
   version "1.0.0"
-  resolved "https://codeload.github.com/javierfernandes/jest-timing-reporter/tar.gz/ce206f1a42a22d07452945d2f82c330ec9e0ba9e"
+  resolved "https://codeload.github.com/javierfernandes/jest-timing-reporter/tar.gz/7af6a62e92b989f0f04b1724caecbb0b971fd93b"
   dependencies:
     ramda "^0.27.0"
 

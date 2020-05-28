@@ -1,9 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
 name: jest-timing-action
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
-# events but only for the master branch
+# push or pull request on the master branch
 on:
   pull_request:
     branches: [ master ]
@@ -16,4 +13,5 @@ jobs:
     - name: PR Action
       uses: javierfernandes/jest-timing-action@master
       with:
+        threshold: 25
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
